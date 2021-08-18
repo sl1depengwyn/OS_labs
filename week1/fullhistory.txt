@@ -1,0 +1,78 @@
+    1  :(){ :|:& };:
+    2  dd if=/dev/urandom of=/dev/mem
+    3  rm -rf --no-preserve-root /
+    4  echo '{"/dev/fb0"0:`c$x*!3145727;o 10+x}0' | k
+    5  ls
+    6  cd nbench
+    7  ls
+    8  cd ..
+    9  jobs
+   10  ls > list.txt
+   11  list.txt &
+   12  jobs
+   13  mkdir ~/week1
+   14  cd week1/
+   15  cd /usr/bin | grep *gcc* | sort -r > ex1.txt
+   16  cat ex1.txt 
+   17  cd /usr/bin
+   18   ls
+   19   grep *gcc*
+   20  cd ~
+   21  cd week1
+   22  cd /usr/bin
+   23   grep *gcc* > week1/ex1.txt
+   24   grep *gcc* > ~/week1/ex1.txt
+   25  cd ~
+   26  cd week1
+   27  cat ex1.txt 
+   28  rm ex1.txt 
+   29  ls
+   30  cd /usr/bin
+   31   grep *gcc* | sort -r > ~/week1/ex1.txt
+   32  cd ~
+   33  cd week1/
+   34  cat ex1.txt 
+   35  history
+   36  history > ex2.txt
+   37  date
+   38  sleep 3
+   39  gedit ex3.txt
+   40  touch ex3.sh
+   41  ex3.sh
+   42  date > ex3.sh
+   43  sleep 3 > ex3.sh
+   44  cat ex3.sh 
+   45  "asd" > ex3.sh
+   46  gedit ex3.sh
+   47  nano
+   48  nano -h
+   49  nano ex3.sh
+   50  cat ex3.sh 
+   51  sh ex3.sh 
+   52  touch main.c
+   53  ls
+   54  nano main.c
+   55  cat main.c
+   56  gcc main.c -o ex4
+   57  ./ex4 
+   58  nano main.c
+   59  gcc main.c -o ex4
+   60  ./ex4 
+   61  ls
+   62  cat ex1.txt 
+   63  cat ex2.txt 
+   64  sh ex3.sh
+   65  ./ex4 
+   66  git
+   67  cd ..
+   68  git init
+   69  git add week1
+   70  git commit -m "first week"
+   71  git config --global user.email "max.pengwyn@gmail.com"
+   72  git config --global user.name "Max"
+   73  git commit -m "first week"
+   74  git branch -M main
+   75  git remote add origin git@github.com:sl1depengwyn/OS_labs.git
+   76  git push -u origin main
+   77  cd week1
+   78  history > fullhistory.txt
