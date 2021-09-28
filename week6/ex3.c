@@ -157,3 +157,29 @@ int comp(const void *first, const void *second) {
 
     return 0;
 }
+
+/*
+This algorithm is the simplest one, but it is very predictable, as process arrives we can say for sure when it will end
+First come, first served
+Average Turnaround time = 388.333344
+Average Waiting Time = 259.166656
+
+Next algorithm still not so complicated, however quite faster, but on the other hand it is not so predictable as previous one, since new processes with lower burn time can
+postpone the termination of process that arrived earlier
+Shortest job next
+Average Turnaround time = 320.833344
+Average Waiting Time = 191.666672
+
+Last one, the idea of algorith is not so simple as previous two, and it may seem that it is not so efficient, but it has best average response time, therefore it used
+more often than previuos two
+Round-robin (quantim = k)
+Average Turnaround time = 511.666656
+Average Waiting Time = 382.500000
+
+Round-robin (quantum = 10k)
+Average Turnaround time = 446.666656
+Average Waiting Time = 317.500000
+
+
+
+*/
