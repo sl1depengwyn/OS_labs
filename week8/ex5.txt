@@ -1,0 +1,6 @@
+Virtual addresses are those that seen by processes, in fact, almost
+always processes access memory using different addresses that are just 
+mapped by virtual addresses using MMU, that's why virtual addresses 
+called so. More over virtual addresses can be out of boundaries of 
+real memory thereby making real memory "larger", but in reality they 
+simply can be stored on the disk.
