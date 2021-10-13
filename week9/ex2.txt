@@ -1,0 +1,19 @@
+High hit/miss ratio:
+Sequence: 1 1 1 1 2 2 2 2 3 3 3 3 4 4 4 4
+Number of pages = 2
+Hits = 12
+Misses = 4
+Ratio = 3
+
+Low hit/miss ratio:
+Sequence: 1 2 3 4 1 2 3 4 1 2 3 4 1 2 3 4
+Number of pages = 3
+Hits = 0
+Misses = 16
+Ratio = 0
+
+The aging algorithm is based on temporal locality principle i.e. if at one point a particular page is referenced,
+then it is likely that the same page will be referenced again in the near future.
+So, if we request same page many times in row or within the period less than number of pages we get high hit/miss ratio.
+On the contrary, if we request page outside of period that is equal to number of pages we will get low hit/miss ratio
+
