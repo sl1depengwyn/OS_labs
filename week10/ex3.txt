@@ -1,0 +1,7 @@
+-rw-r--r-- 1 kitt kitt 14 Oct 20 15:33 _ex3.txt
+-rwxr--rwx 1 kitt kitt 14 Oct 20 15:33 _ex3.txt
+-rwxrwxrwx 1 kitt kitt 14 Oct 20 15:33 _ex3.txt
+
+660 in octal is 110110000 in binary that means that file is readable and writable for user and group but not for others
+775 -> 111111101 -> everything is allowed for everyone but writing for others
+777 -> 111111111 -> everything is allowed for everyone
