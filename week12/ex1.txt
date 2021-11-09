@@ -1,8 +1,8 @@
 // Explanations
   
-dma1 is a port of direct memory access that takes addresse from 0000 to 001f
-pic1 is a port 
-timer1 is a port 
+dma1 is a port of direct memory access that takes addresses from 0000 to 001f
+pic1 enhances I/O operations from a peripheral devices by separating I/O-based programs and data from the CPU, takes addresses from 0020 to 0021	
+timer1 is just a timer that counts time
 
 //
 
