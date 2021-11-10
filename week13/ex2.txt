@@ -1,0 +1,11 @@
+If we know whether granting a resource is safe or not we can use avoidance strategy.
+
+If there is a possibility to preempt resources than we can use recovery through preemption.
+
+If we can introduce kind of checkpoints to restart process from certain point than we can use recovery through rollback.
+
+If there is a possibility to freely kill processes(all process are not so important or can be restarted without any consequences)
+than we can use simple recovery through killing processes.
+
+In case when we are not allowed to do anything(preempting resources, killing processes, introducing checkpoints) or we do not
+know whether granting a resource is safe or not we use prevention strategy.
